@@ -1,0 +1,19 @@
+body{
+    background-color: #EFE46E;
+    font-family: oswald;
+}
+.navbar{
+    background-color: #3EADBC;
+}
+.nav-item{
+    color: hsl(33, 100%, 26%) !important;
+    font-size: 30px !important;
+    font-family: lobster;
+}
+.colo{
+    color: #844800 !important;
+}
+.card{
+    margin-left: 15px;
+    margin-right: 15px;
+}
