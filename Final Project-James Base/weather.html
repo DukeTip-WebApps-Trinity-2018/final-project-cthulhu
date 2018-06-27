@@ -14,13 +14,13 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
     <script src="common.js"></script>
-    <title>Cat Cafe Name</title>
+    <title>The Purrfect Pour</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">
-            <img src="Final project pics/Logos/cafe_coffee.png">
+            <img class="brand" src="Final project pics/Logos/Layer 2.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
                     <a class="nav-link" href="cats.html">Cats</a>
                 </li>
                 <li class="nav-item active colo">
-                    <a class="nav-link" href="weather.html">Weather
+                    <a class="nav-link colo" href="weather.html">Weather
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
@@ -57,6 +57,9 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
+            <div class="carousel-caption">
+                        The Purrfect Pour
+                    </div>
             <div class="carousel-item active">
                 <img class="d-block w-100" src="Final project pics/gh.jpg" alt="First slide">
             </div>
@@ -77,28 +80,40 @@
         </a>
     </div>
     <br>
+    <div class="row">
+        <div class="col">
+            <input class="city" id="drop" value="" type="text">
+            <button class="btn" id="submit">Submit</button>
+            <h4>Suggested Menu Item</h4>
+            <div class="sug"></div>
+            <h4>Weather in:
+                <span class="city-name"></span>
+            </h4>
+            <!-- Shows location, span used for a dynamic blank space-->
+            <div class="weather mar"></div>
+            <!-- Shows weather -->
+            <h5>Temperature</h5>
+            <div class="temp mar"></div>
+            <!-- Shows temperature -->
+            <h5>Country</h5>
+            <div class="country mar"></div>
+            <!-- Shows country -->
+            <h5>Humidity</h5>
+            <div class="humidity mar"></div>
+            <!-- Shows humidity -->
+        </div>
+        <div class="col">
 
-    <input class="city" type="text">
-    <button class="btn" id="submit">Submit</button>
-    <h4>Weather in:
-        <span class="city-name"></span>
-    </h4>
-    <!-- Shows location, span used for a dynamic blank space-->
-    <h5>Weather</h5>
-    <div class="weather mar"></div>
-    <!-- Shows weather -->
-    <h5>Suggestion</h5>
-    <div class="sug"></div>
-    <h5>Temperature</h5>
-    <div class="temp mar"></div>
-    <!-- Shows temperature -->
-    <h5>Country</h5>
-    <div class="country mar"></div>
-    <!-- Shows country -->
-    <h5>Humidity</h5>
-    <div class="humidity mar"></div>
-    <!-- Shows humidity -->
+            <button  id="hipsterTown" class="btn hipsterTown">Seattle</button>
 
+
+            <button id="olym" type="button" class="btn olym">Olympia</button>
+
+
+            <button id="tyler1" type="button" class="btn tyler1">Spokane</button>
+
+        </div>
+    </div>
 
 
 

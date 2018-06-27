@@ -7,6 +7,18 @@ $(document).ready(function () {
         console.log(uri);
         $.get(uri, onRes);
     });
+    $("#hipsterTown").click(function () {
+        //Zip Code Value
+        $("#drop").val(98101);
+    });
+    $("#olym").click(function () {
+        //Zip Code Value
+        $("#drop").val(98501);
+    });
+    $("#tyler1").click(function () {
+        //Zip Code Value
+        $("#drop").val(99201);
+    });
 });
 
 function onRes(response) {

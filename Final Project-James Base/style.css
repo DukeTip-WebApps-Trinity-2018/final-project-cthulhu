@@ -17,3 +17,72 @@ body{
     margin-left: 15px;
     margin-right: 15px;
 }
+.navbar-nav  .active{
+    color: #844800;
+}
+h3{
+color: red;
+text-align:right;
+}
+.home{
+    font-size: 30px;
+}
+.carousel-item{
+    width: 100%;
+}
+.aboutTitle{
+    text-align: center;
+    font-family: lobster;
+
+}
+.img{
+    border: solid black 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-caption{
+    font-size: 75px;
+    font-family: lobster;
+    padding-bottom: 15%;
+    color: #3EADBC;
+}
+.btn{
+    background-color: #3EADBC;
+}
+.downer{
+    margin-top: 100px
+}
+.about{
+    font-size:25px
+}
+.big{
+    font-size: 50px;
+    width: 125%;
+    height: 125%;
+}
+
+
+@media(max-width: 900px) {
+    .sizer{
+        width: 369px;
+        height: 245px;
+    }
+    .brand{
+        width: 50%;
+        height: 50%;
+    }
+    .medias{
+        font-size: 50%;
+    }
+    .carousel-caption{
+        padding-bottom: 5%;
+        font-size: 50px !important ;
+    }
+     .smaller{
+        font-size: 100%;
+    } 
+    /* .mediass{
+        font-size: 100%;
+    } */
+}
