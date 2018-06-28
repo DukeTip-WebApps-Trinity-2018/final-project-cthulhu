@@ -1,12 +1,4 @@
 $(document).ready(function () {
-    $("#submit").click(function () {
-        //Api Call
-        var city = $('.city').val();
-        console.log(city);
-        var uri = "https://api.openweathermap.org/data/2.5/weather?zip=" + city + ",us&units=imperial&appid=2ae76972c67c8071f68a470e0b9c4386";
-        console.log(uri);
-        $.get(uri, onRes);
-    });
     $("#hipsterTown").click(function () {
         //Zip Code Value
         $("#drop").val(98101);
@@ -18,6 +10,14 @@ $(document).ready(function () {
     $("#tyler1").click(function () {
         //Zip Code Value
         $("#drop").val(99201);
+    });
+    $(".submit").click(function () {
+        //Api Call
+        var city = $('.city').val();
+        console.log(city);
+        var uri = "https://api.openweathermap.org/data/2.5/weather?zip=" + city + ",us&units=imperial&appid=2ae76972c67c8071f68a470e0b9c4386";
+        console.log(uri);
+        $.get(uri, onRes);
     });
 });
 

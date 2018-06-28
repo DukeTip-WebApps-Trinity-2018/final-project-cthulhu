@@ -1,6 +1,16 @@
+
 body{
-    background-color: #EFE46E;
+    background-image: url("http://4.bp.blogspot.com/-rJHO5lMGfHA/UoQ_n-3SBTI/AAAAAAAAB3o/RlCy_zqMASs/s1600/30-Day-Pattern-3-yellow.gif");
     font-family: oswald;
+}
+.pls{
+    width: 125px !important;
+    height: 94px !important;
+}
+footer{
+    background-color: #3EADBC;
+    text-align: center;
+    font-size: 20px;
 }
 .navbar{
     background-color: #3EADBC;
@@ -21,14 +31,23 @@ body{
     color: #844800;
 }
 h3{
-color: red;
-text-align:right;
+    color: red;
+    text-align:right;
+}
+.menu{
+    font-size: 30px;
+
 }
 .home{
     font-size: 30px;
 }
 .carousel-item{
     width: 100%;
+}
+.mission{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 25px;
 }
 .aboutTitle{
     text-align: center;
@@ -44,26 +63,48 @@ text-align:right;
 .carousel-caption{
     font-size: 75px;
     font-family: lobster;
-    padding-bottom: 15%;
+    margin-bottom: 10%;
     color: #3EADBC;
+    border: 5px dotted #844800;
+    background-color: white;
+
 }
 .btn{
     background-color: #3EADBC;
 }
 .downer{
-    margin-top: 100px
+    margin-top: 100px;
+}
+.mar{
+    margin-left: 500px auto;
+    position: relative;
+
 }
 .about{
-    font-size:25px
+    font-size:25px;
 }
-.big{
-    font-size: 50px;
-    width: 125%;
-    height: 125%;
+.vertline{
+    width: 1;
+    size: 500px;
+}
+.vl {
+    border-left: 6px dotted #844800;
+    height: 1000px;
+    position: absolute;
+    left: 50%;
+    margin-top: 1200px;
+    margin-left: -3px;
+    top: 0;
+}
+.ope{
+    widows: 100%;
+}
+.align{
+ margin-left: 500px;
 }
 
 
-@media(max-width: 900px) {
+@media(max-width: 800px) {
     .sizer{
         width: 369px;
         height: 245px;
@@ -77,12 +118,22 @@ text-align:right;
     }
     .carousel-caption{
         padding-bottom: 5%;
-        font-size: 50px !important ;
+        font-size: 25px !important ;
     }
      .smaller{
         font-size: 100%;
     } 
+    .vl{
+        border-left: 6px dotted #EFE46E;
+        height: 1px;
+        margin-top: 1000px;
+    }
+    .mission{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
     /* .mediass{
         font-size: 100%;
     } */
 }
+

@@ -18,10 +18,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">
-            <img class="brand" src="Final project pics/Logos/Layer 2.png">
-        </a>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,8 +45,15 @@
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
+                <li class="nav-item colo">
+                    <a class="nav-link" href="settings.html">Accessibility Settings
+                    </a>
+                </li>
             </ul>
         </div>
+        <a class="navbar-brand" href="index.html">
+            <img class="brand" src="Final project pics/Logos/Layer 2.png">
+        </a>
     </nav>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -58,8 +63,8 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-caption">
-                        The Purrfect Pour
-                    </div>
+                The Purrfect Pour
+            </div>
             <div class="carousel-item active">
                 <img class="d-block w-100" src="Final project pics/gh.jpg" alt="First slide">
             </div>
@@ -81,40 +86,46 @@
     </div>
     <br>
     <div class="row">
-        <div class="col">
+        <div class="col mar">
             <input class="city" id="drop" value="" type="text">
-            <button class="btn" id="submit">Submit</button>
+            <button class="btn submit">Submit</button>
             <h4>Suggested Menu Item</h4>
             <div class="sug"></div>
             <h4>Weather in:
-                <span class="city-name"></span>
+                <div class="city-name"></div>
             </h4>
-            <!-- Shows location, span used for a dynamic blank space-->
-            <div class="weather mar"></div>
-            <!-- Shows weather -->
+            <div class="weather"></div>
             <h5>Temperature</h5>
-            <div class="temp mar"></div>
-            <!-- Shows temperature -->
+            <div class="temp "></div>
             <h5>Country</h5>
-            <div class="country mar"></div>
-            <!-- Shows country -->
+            <div class="country "></div>
             <h5>Humidity</h5>
-            <div class="humidity mar"></div>
-            <!-- Shows humidity -->
+            <div class="humidity "></div>
         </div>
+
         <div class="col">
-
-            <button  id="hipsterTown" class="btn hipsterTown">Seattle</button>
-
-
-            <button id="olym" type="button" class="btn olym">Olympia</button>
+            <button id="hipsterTown" class="btn hipsterTown submit">Seattle</button>
+            <br>
 
 
-            <button id="tyler1" type="button" class="btn tyler1">Spokane</button>
+            <button id="olym" type="button" class="btn olym submit">Olympia</button>
+            <br>
+
+
+            <button id="tyler1" type="button" class="btn tyler1 submit">Spokane</button>
+            <br>
+
 
         </div>
     </div>
+    <footer>
+        <h4>Contact Information</h4>
 
+        <div class="col home smaller">
+            Email: purrfectpour1986@gmail.com
+            <br> Phone: 209-716-2287
+
+    </footer>
 
 
 
