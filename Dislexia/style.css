@@ -1,6 +1,7 @@
+
 body{
     background-image: url("http://4.bp.blogspot.com/-rJHO5lMGfHA/UoQ_n-3SBTI/AAAAAAAAB3o/RlCy_zqMASs/s1600/30-Day-Pattern-3-yellow.gif");
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS";
 }
 .pls{
     width: 125px !important;
@@ -17,7 +18,7 @@ footer{
 .nav-item{
     color: hsl(33, 100%, 26%) !important;
     font-size: 30px !important;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS";
 }
 .colo{
     color: #844800 !important;
@@ -50,7 +51,7 @@ h3{
 }
 .aboutTitle{
     text-align: center;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS";
 
 }
 .img{
@@ -61,7 +62,7 @@ h3{
 }
 .carousel-caption{
     font-size: 75px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS";
     margin-bottom: 10%;
     color: #3EADBC;
     border: 5px dotted #844800;
@@ -74,12 +75,16 @@ h3{
 .downer{
     margin-top: 100px;
 }
+
 .about{
     font-size:25px;
 }
 .vertline{
     width: 1;
     size: 500px;
+}
+.yeetus{
+    margin-bottom: 20px;
 }
 .vl {
     border-left: 6px dotted #844800;
@@ -96,22 +101,33 @@ h3{
 .align{
  margin-left: 500px;
 }
+.wea{
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+.yeet{
+    padding-top: 20px;
+}
 
 
-@media(max-width: 800px) {
+@media(max-width: 900px) {
     .sizer{
         width: 369px;
         height: 245px;
     }
     .brand{
-        width: 50%;
-        height: 50%;
+        width: 63px;
+        height: 47px;
+    }
+    .pls{
+        width: 63px;
+        height: 47px;
     }
     .medias{
         font-size: 50%;
     }
     .carousel-caption{
-        padding-bottom: 5%;
         font-size: 25px !important ;
     }
      .smaller{
@@ -121,6 +137,9 @@ h3{
         border-left: 6px dotted #EFE46E;
         height: 1px;
         margin-top: 1000px;
+    }
+    .wea{
+        font-size: 15px;
     }
     .mission{
         padding-left: 25px;
