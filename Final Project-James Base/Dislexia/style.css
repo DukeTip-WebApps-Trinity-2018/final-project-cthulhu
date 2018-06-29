@@ -1,7 +1,7 @@
 
 body{
     background-image: url("http://4.bp.blogspot.com/-rJHO5lMGfHA/UoQ_n-3SBTI/AAAAAAAAB3o/RlCy_zqMASs/s1600/30-Day-Pattern-3-yellow.gif");
-    font-family: oswald;
+    font-family: "Comic Sans MS";
 }
 .pls{
     width: 125px !important;
@@ -18,7 +18,7 @@ footer{
 .nav-item{
     color: hsl(33, 100%, 26%) !important;
     font-size: 30px !important;
-    font-family: lobster;
+    font-family: "Comic Sans MS";
 }
 .colo{
     color: #844800 !important;
@@ -51,7 +51,7 @@ h3{
 }
 .aboutTitle{
     text-align: center;
-    font-family: lobster;
+    font-family: "Comic Sans MS";
 
 }
 .imgc{
@@ -66,7 +66,7 @@ h3{
 }
 .carousel-caption{
     font-size: 75px;
-    font-family: lobster;
+    font-family: "Comic Sans MS";
     margin-bottom: 10%;
     color: #3EADBC;
     border: 5px dotted #844800;
