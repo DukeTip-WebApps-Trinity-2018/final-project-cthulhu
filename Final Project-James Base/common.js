@@ -28,7 +28,7 @@ function onRes(response) {
     switch (response.weather[0].id) {
         case 801:
             $(".weather").html("<p>" + response.weather[0].description + "</p>");
-            $(".weather").append('<img id="theImg" src="few clouds.png" />');
+            $(".weather").append('<img id="theImg" src="scattered clouds.png" />');
             $(".sug").html('Ape-le Turnover');
             break;
         case 802:
@@ -47,52 +47,52 @@ function onRes(response) {
             break;
         case 200:
             $(".weather").html("<p>" + response.weather[0].description + "</p>");
-            $(".weather").append('<img id="theImg" src="Thunderstormm.png" />');
+            $(".weather").append('<img id="theImg" src="Thunderstorm.png" />');
             $(".sug").html('Cat-puccino');
             break;
         case 201:
             $(".weather").html("<p>" + response.weather[0].description + "</p>");
-            $(".weather").append('<img id="theImg" src="Thunderstormm.png" />');
+            $(".weather").append('<img id="theImg" src="Thunderstorm.png" />');
             $(".sug").html('Cat-puccino');
             break;
         case 202:
             $(".weather").html("<p>" + response.weather[0].description + "</p>");
-            $(".weather").append('<img id="theImg" src="Thunderstormm.png" />');
+            $(".weather").append('<img id="theImg" src="Thunderstorm.png" />');
             $(".sug").html('Cat-puccino');
             break;
         case 210:
             $(".weather").html("<p>" + response.weather[0].description + "</p>");
-            $(".weather").append('<img id="theImg" src="Thunderstormm.png" />');
+            $(".weather").append('<img id="theImg" src="Thunderstorm.png" />');
             $(".sug").html('Cat-puccino');
             break;
         case 211:
             $(".weather").html("<p>" + response.weather[0].description + "</p>");
-            $(".weather").append('<img id="theImg" src="Thunderstormm.png" />');
+            $(".weather").append('<img id="theImg" src="Thunderstorm.png" />');
             $(".sug").html('Cat-puccino');
             break;
         case 212:
             $(".weather").html("<p>" + response.weather[0].description + "</p>");
-            $(".weather").append('<img id="theImg" src="Thunderstormm.png" />');
+            $(".weather").append('<img id="theImg" src="Thunderstorm.png" />');
             $(".sug").html('Cat-puccino');
             break;
         case 221:
             $(".weather").html("<p>" + response.weather[0].description + "</p>");
-            $(".weather").append('<img id="theImg" src="Thunderstormm.png" />');
+            $(".weather").append('<img id="theImg" src="Thunderstorm.png" />');
             $(".sug").html('Cat-puccino');
             break;
         case 230:
             $(".weather").html("<p>" + response.weather[0].description + "</p>");
-            $(".weather").append('<img id="theImg" src="Thunderstormm.png" />');
+            $(".weather").append('<img id="theImg" src="Thunderstorm.png" />');
             $(".sug").html('Cat-puccino');
             break;
         case 231:
             $(".weather").html("<p>" + response.weather[0].description + "</p>");
-            $(".weather").append('<img id="theImg" src="Thunderstormm.png" />');
+            $(".weather").append('<img id="theImg" src="Thunderstorm.png" />');
             $(".sug").html('Cat-puccino');
             break;
         case 232:
             $(".weather").html("<p>" + response.weather[0].description + "</p>");
-            $(".weather").append('<img id="theImg" src="Thunderstormm.png" />');
+            $(".weather").append('<img id="theImg" src="Thunderstorm.png" />');
             $(".sug").html('Cat-puccino');
             break;
         case 300:

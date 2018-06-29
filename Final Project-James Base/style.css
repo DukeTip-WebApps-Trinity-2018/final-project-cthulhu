@@ -54,6 +54,10 @@ h3{
     font-family: lobster;
 
 }
+.imgc{
+    display: flex;
+  justify-content: center;
+}
 .img{
     border: solid black 5px;
     display: block;
@@ -75,17 +79,16 @@ h3{
 .downer{
     margin-top: 100px;
 }
-.mar{
-    margin-left: 500px auto;
-    position: relative;
 
-}
 .about{
     font-size:25px;
 }
 .vertline{
     width: 1;
     size: 500px;
+}
+.yeetus{
+    margin-bottom: 20px;
 }
 .vl {
     border-left: 6px dotted #844800;
@@ -102,22 +105,37 @@ h3{
 .align{
  margin-left: 500px;
 }
+.wea{
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+.yeet{
+    padding-top: 20px;
+}
 
 
-@media(max-width: 800px) {
+@media(max-width: 900px) {
     .sizer{
-        width: 369px;
-        height: 245px;
-    }
-    .brand{
         width: 50%;
         height: 50%;
+    }
+    .nou{
+        width:308px;
+        height: 205px;
+    }
+    .brand{
+        width: 63px;
+        height: 47px;
+    }
+    .pls{
+        width: 63px;
+        height: 47px;
     }
     .medias{
         font-size: 50%;
     }
     .carousel-caption{
-        padding-bottom: 5%;
         font-size: 25px !important ;
     }
      .smaller{
@@ -128,6 +146,9 @@ h3{
         height: 1px;
         margin-top: 1000px;
     }
+    .wea{
+        font-size: 15px;
+    }
     .mission{
         padding-left: 25px;
         padding-right: 25px;
@@ -135,5 +156,11 @@ h3{
     /* .mediass{
         font-size: 100%;
     } */
+}
+@media(max-width: 400px){
+    .carousel-caption{
+        font-size: 8px;
+        padding-bottom: 0%;
+    }
 }
 
